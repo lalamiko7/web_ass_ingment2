@@ -47,6 +47,15 @@ img {
     display: flex;
 }
 
-.inputalign * {
-    width: 50%;
+.inputalign label *{
+    width: 40%;
+}
+
+label {
+    color: lightblue;
+    font-size: x-small;
+}
+
+.large * {
+    width: 90%;
 }

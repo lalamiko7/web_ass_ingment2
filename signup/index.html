@@ -24,13 +24,21 @@
             <form id="signin" action="../student/index.html" method="POST">
                 <span>Please sign up:</span>
                 <div class="inputalign">
-                    <input type="name" placeholder="Name" required>
-                    <input type="name" placeholder="User ID" required>
+                    <label>
+                        <input type="text" onkeydown="return /[a-z]/i.test(event.key)" placeholder="Name" required>
+                        <input type="text" minlength="5" maxlength="12" placeholder="User ID" required>
+                        * Name: Only letters, <br>* User ID: length between 5 and 12.
+                    </label>
                 </div>
-                <input type="name" placeholder="Email" required>
-                <input type="password" placeholder="Password" required>
-                <div class="inputalign">
-                    <input type="name" placeholder="Address" required>
+                <label class="large">
+                    <input type="email" placeholder="Email" required>
+                </label>
+                <label class="large">
+                    <input type="password" minlength="12" placeholder="Password" required>
+                    * Minimal length of 12, 14 is better.
+                </label>
+                <div class="small">
+                    <input type="text" placeholder="Address">
                     <input type="name" placeholder="ZIP Code" required>
                 </div> 
                 <input type="name" placeholder="Country" required>
