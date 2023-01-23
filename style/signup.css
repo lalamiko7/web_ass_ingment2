@@ -51,11 +51,15 @@ img {
     width: 40%;
 }
 
+.small * {
+    width: 40%;
+}
+
 label {
     color: lightblue;
     font-size: x-small;
 }
 
 .large * {
-    width: 90%;
+    width: 85%;
 }
