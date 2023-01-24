@@ -1,0 +1,2 @@
+tracking script is at /tracking_script/signup/tracking.js and 
+implemented on /tracking_script/signup/index.html

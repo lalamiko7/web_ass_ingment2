@@ -146,6 +146,5 @@ function validate() {
 }
 
 function showAlert() {
-    alert("username" + uname.value.trim() + "\nUser ID" + uid.value.trim())
-
+    alert("Username: " + uname.value.trim() + "\nUser ID: " + uid.value.trim() + "\nemail: " + email.value.trim()+ "\npassword: " + password.value.trim()+ "\nzip code: " + zip.value.trim()+ "\ncountry: " + country.value.trim()+ "\nsex: " + sex.value.trim()+ "\nlanguage: " + lang.value.trim());
 }
