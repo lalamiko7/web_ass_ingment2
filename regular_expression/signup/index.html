@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="stylesheet" type="text/css" href="../style/signup.css">
+</head>
+<body>
+    <header>
+        <div class="centeralign">
+            <span id="logo"></span>
+            <span id="site" style="font-size: xx-large">mentor.nl</span>
+        </div>
+        <div class="centeralign">
+            <span class="link"><a href="../index.html">Logout</a></span>
+            <span class="name">Your name here</span>
+        </div>
+    </header>
+    <div id="main">
+        <div id="login">
+            <form id="signin" action="../student/index.html" method="POST">
+                <span>Please sign up:</span>
+                <div class="inputalign">
+                    <label>
+                        <input type="text" pattern="[A-Za-z]{1,}" placeholder="Name" required>
+                        <input type="text" pattern="[A-Z]{1}.{3,10}[^A-Za-z]{1}" placeholder="User ID" required>
+                        * Name: Only letters, <br>* User ID: length between 5 and 12.
+                    </label>
+                </div>
+                <label class="large">
+                    <input type="text" pattern="[^@]{1,}[@]{1}[^@]{2,}[\.]{1}[^@]{2,}" placeholder="Email" required>
+                    *
+                </label>
+                <label class="large">
+                    <input type="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*\W).{12,}" placeholder="Password" required>
+                    * Minimal length of 12, 14 is better.
+                </label>
+                <div class="inputalign">
+                    <label>
+                        <input type="text" placeholder="Address">
+                        <input type="text" placeholder="ZIP Code" pattern="[0-9]{4}[A-Za-z]{2}">
+                        Dutch postal code as ZIP Code.
+                    </label>
+                </div>
+                <label class="large">
+                    <input type="text" placeholder="Country" required>
+                    *
+                </label>
+                <div class="inputalign">
+                    <label>
+                        <input type="name" placeholder="SEX" required>
+                        <input type="name" placeholder="Language" required>
+                        * SEX, * Language.
+                    </label>
+                </div> 
+                <input type="name" style="height:70px;" placeholder="Bio/about me">
+                <button type="submit">Sign Up </button>
+
+                <label>* = required</label>
+            </form>
+        </div>
+        <img src="../img/child-cropped.png">
+    </div>
+</body>
+</html>

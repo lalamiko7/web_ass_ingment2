@@ -1,6 +1,6 @@
 #main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly;   
     margin-top: 10%;
 }
 
@@ -41,37 +41,4 @@
 img {
     max-width: min(40%, 400px);
     object-fit: contain;
-}
-
-.inputalign {
-    display: flex;
-}
-
-.inputalign label *{
-    width: 40%;
-}
-
-.small * {
-    width: 40%;
-}
-
-label {
-    color: lightblue;
-    font-size: x-small;
-}
-
-.large * {
-    width: 85%;
-}
-
-input:focus {
-    border: none;
-    outline: 1px solid black;
-}
-
-input:required:invalid, input:focus:invalid {
-    /* insert your own styles for invalid form input */
-    -moz-box-shadow: none;
-    outline: 1px solid red;
-    border: none;
 }
