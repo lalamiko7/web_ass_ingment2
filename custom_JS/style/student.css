@@ -1,0 +1,55 @@
+.main {
+    width: 80%;
+    margin: auto;
+    color: black;
+    font-family: system-ui;
+}
+
+.main h1 {
+    margin-top: 50px;
+}
+
+.meetings {
+    border: 1px solid black;
+    margin: 10px auto 0 auto;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.meeting_clickable:hover {
+    border: 1px solid lightblue;
+    cursor: pointer;
+}
+
+.meetings::-webkit-scrollbar {
+    display: none;
+}
+
+.meeting {
+    flex-shrink: 0;
+    width: 400px;
+    margin: 10px;
+}
+
+.meeting .name {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.meeting p {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+.white {
+    color: white;
+}
+
+input {
+    border: 1px solid black;
+    padding: 2px 2px 2px 10px;
+    margin-top: 5px;
+    width: 200px;
+    height: 25px;
+}
