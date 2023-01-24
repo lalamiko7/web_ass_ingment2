@@ -63,3 +63,15 @@ label {
 .large * {
     width: 85%;
 }
+
+input:focus {
+    border: none;
+    outline: 1px solid black;
+}
+
+input:required:invalid, input:focus:invalid {
+    /* insert your own styles for invalid form input */
+    -moz-box-shadow: none;
+    outline: 1px solid red;
+    border: none;
+}
