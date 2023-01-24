@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>REQUEST - mentor.nl</title>
+        <link rel="stylesheet" href="../style/style.css">
+        <link rel="stylesheet" href="../style/student.css">
+    </head>
+    <body>
+        <header>
+            <div class="centeralign">
+                <span id="logo"></span>
+                <span id="site" style="font-size: xx-large">mentor.nl</span>
+            </div>
+            <div class="centeralign">
+                <span class="link"><a href="../index.html">Logout</a></span>
+                <span class="name">Your name here</span>
+            </div>
+        </header>
+
+        <div class="main">
+            <h1>Request a meeting:</h1>
+            <div class="meetings">
+                <div class="meeting">
+                    <p class="name">Cras Viverra:</p>
+                    <p><b>Open slots: </b>Wednesday: time, time, time</p>
+                    <p><b class="white">Open slots: </b>Friday: time, time, time, time</p>
+                    <p><b>Skills / job category:</b>
+                        In imperdiet metus a porta sollicitudin.
+                        Donec tellus quam, tempor ut lorem ac,
+                        pretium convallis urna. Sed facilisis
+                        pretium arcu nec placerat.</p>
+                    <p><b>Location:</b>
+                        Vestibulum at feugiat.</p>
+                    <p><b>Company:</b>
+                        Nam leo.</p>
+                </div>
+
+                <form style="padding: 50px" action="index.html">
+                    <input list="time" placeholder="Choose a time" required>
+
+                    <datalist id="time">
+                        <option value="time">
+                        <option value="time">
+                        <option value="time">
+                        <option value="time">
+                        <option value="time">
+                    </datalist>
+
+                    <input type="text" placeholder="Purpose of the meeting" required>
+
+                    <input type="submit" value="Send request">
+
+                </form>
+            </div>
+
+            <br>
+
+            <form action="../student">
+                <input type="submit" value="Go back">
+            </form>
+        </div>
+    </body>
+</html>

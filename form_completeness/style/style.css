@@ -1,0 +1,40 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    font-family: system-ui;
+}
+
+header * {
+    margin: 10px;
+}
+
+.centeralign {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#logo {
+    height: 60px;
+    width: 60px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display:inline-block;
+}
+
+.link a{
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: blue;
+}
