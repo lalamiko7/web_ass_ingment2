@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" type="text/css" href="style/login.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <header>
+        <div class="centeralign">
+            <span id="logo"></span>
+            <span id="site" style="font-size: xx-large">mentor.nl</span>
+        </div>
+        <div class="centeralign">
+            <span class="link"><a href="index.html">Logout</a></span>
+            <span class="name">Your name here</span>
+        </div>
+    </header>
+    <div id="main">
+        <div id="login">
+            <form id="signin" action="student/index.html">
+                <span>Please sign in:</span>
+                <input type="name" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Sign in </button>
+                <a href="signup/resetpassword.html">Forgot your password?</a>
+            </form>
+            <form action="mentor/index.html">
+                <button id="institutional">Institutional sign in</button>
+                <a href="signup/index.html" style="margin-top: max(30px, 10vh); font-size:medium;">Or make an account here.</a>
+            </form>
+        </div>
+        <img src="img/child-cropped.png">
+    </div>
+</body>
+</html>

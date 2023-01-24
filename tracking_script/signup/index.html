@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="stylesheet" type="text/css" href="../style/signup.css">
+    <script src="tracking.js"></script>
+</head>
+<body>
+    <header>
+        <div class="centeralign">
+            <span id="logo"></span>
+            <span id="site" style="font-size: xx-large">mentor.nl</span>
+        </div>
+        <div class="centeralign">
+            <span class="link"><a href="../index.html">Logout</a></span>
+            <span class="name">Your name here</span>
+        </div>
+    </header>
+    <div id="main">
+        <div id="login">
+            <form id="signin" onsubmit="event.preventDefault(); calculate()">
+                <span>Please sign up:</span>
+                <div class="inputalign">
+                    <input class="tracked" type="name" placeholder="Name" >
+                    <input class="tracked" type="name" placeholder="User ID" >
+                </div>
+                <input class="tracked" type="name" placeholder="Email" >
+                <input class="tracked" type="password" placeholder="Password" >
+                <div class="inputalign">
+                    <input class="tracked" type="name" placeholder="Address" >
+                    <input class="tracked" type="name" placeholder="ZIP Code" >
+                </div> 
+                <input type="name" placeholder="Country" >
+                <div class="inputalign">
+                    <input class="tracked" type="name" placeholder="SEX" >
+                    <input class="tracked" type="name" placeholder="Language" >
+                </div> 
+                <input class="tracked" type="name" style="height:70px;" placeholder="Bio/about me" >
+                <button type="submit">Sign Up </button>
+            </form>
+        </div>
+        <img src="../img/child-cropped.png">
+    </div>
+</body>
+</html>
